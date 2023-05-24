@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="icon" href="Gambar2.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="testes.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+      <div class="sidebar">
+      <a href="index.html">Dashboard</a>
+      <a href="Halaman Pendaftaran.html">Registrasi</a>
+      <a href="Halaman Peserta.html">Participant</a>
+      <a href="Halaman Tentang.html">About</a>
+      <a href="Halaman ContactUs.html">Contact us</a>
+    </div>
+    </div>
+     <!-- Page content -->
+    <div class="content">
+      <div class="row">
+        <center>
+          <h1>FORMULIR PENDAFTARAN</h1><br>
+          <img src="Gambar2.jpg" alt="logo" width="180" height="200"><br><br><br>
+        </center>
+      </div>
+      <div class="row">
+        <form> <!--tag pembuka form-->
+            <label for="fname">Nama :</label><br> <!--memberi label sebagai pengarahan untuk apa yang diinput-->
+            <input type="text" id="fname" name="fname"><br><br> <!--input untuk nama bertipe text, id dan name untuk pengenal inputan-->
+
+            <label for="tanggal">Tanggal Lahir :</label><br>
+            <input type="date" id="tanggal" name="tanggal"><br><br> <!--input untuk tanggal lahir bertipe date-->
+
+            <label for="jk">Jenis Kelamin :</label><br>
+            <input type="radio" id="jk" name="jk"> Laki-laki <!--menggunakan tipe radio untuk memilih salah satu pilihan-->
+            <input type="radio" id="jk" name="jk"> Perempuan <br><br>
+
+            <label for="alamat">Alamat :</label><br>
+            <input type="text" id="alamat" name="alamat"><br><br>
+
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email"><br><br> <!--inputan untuk email bertipe email-->
+
+            <label for="jTO">Jenis TO :</label><br>
+            <input type="radio" id="jTO" name="jTo"> Saintek 
+            <input type="radio" id="jTO" name="jTO"> Soshum <br><br>
+
+            <label for="foto">Foto :</label><br>
+            <input type="file" id="file" name="file"><br><br><br> <!--inputan bertipe file supaya user bisa menguplod file-->
+          
+            <input class="rounded" type="submit" value="Submit"><br><br><br> 
+        </form> <!--tag penutup form-->
+      </div>
+    </div>
+</div>
+</body>
+</html>
